@@ -7,7 +7,7 @@ export default class Pricing {
   get amount() {
     return this._amount;
   }
- 
+
   set amount(amount) {
     this._amount = amount;
   }
@@ -25,6 +25,6 @@ export default class Pricing {
   }
 
   static convertPrice(amount, conversionRate) {
-	  return amount * conversionRate;
+    return amount * conversionRate;
   }
 }
